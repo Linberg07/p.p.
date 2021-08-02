@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.graphite .accordion {
+	font: bold 20px 'Roboto', sans-serif;
+	border-top: 1px solid #111;
+	border-right: 1px solid #111;
+	border-left: 1px solid #111;
+}
+
+.graphite .accordion,
+.graphite .accordion li {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.graphite .accordion .in {
+	padding:0px 10px;
+	font: 16px 'Roboto', sans-serif;
+}
+
+.graphite .accordion a {
+	padding: 10px 10px 10px 50px;
+	background: #FFFFFF;
+	) repeat-x 0 -1px;
+	text-decoration: none;
+	display: block;
+	color: #ddd;
+	border-bottom: 1px solid #222;
+	border-top: 1px solid #777;
+	position: relative;
+}
+
+.graphite .accordion .in a {
+	padding: 0px;
+	background: #FFFFFF;
+	color: #005786;
+	border: 0px;
+}
+
+.graphite .accordion .in a:hover {
+	padding: 0px;
+	background: #FFFFFF;
+	color: #273350;
+	border: 0px;
+}
+
+.graphite .accordion ul a {
+	background: #424549;
+}
+
+.graphite .accordion a.dcjq-parent,
+.graphite .accordion a.dcjq-parent:hover {
+	background: #0C0C0C url(bg_black.png) repeat-x 0 -1px;
+}
+
+.graphite .accordion a.dcjq-parent.active {}
+
+.graphite .accordion a .dcjq-icon {
+	position: absolute;
+	top: 50%;
+	left: 14px;
+	width: 34px;
+	margin-top: -17px;
+	height: 34px;
+	background: url(arrow_black_right.png) no-repeat 0 center;
+}
+
+.graphite .accordion a.dcjq-parent.active .dcjq-icon {
+	background: url(arrow_black_down.png) no-repeat 0 center;
+}
+
+.graphite .accordion a:hover {
+	background: #FFFFFF;
+	color: #fff;
+}
+
+.graphite .accordion a:active {}
+
+.item__title {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+
+.accordion__item_img{
+	display: block;
+	max-width: 450px;
+}
+img{
+	margin:10px 0px 10px 0px;
+}
+.img01{
+	max-width: 450px;
+	margin:0px 0px 10px 0px;
+}
+.img02{
+	max-width: 450px;
+}
+.img04{
+	max-width: 350px;
+}
+.img06{
+	max-width: 350px;
+}
+.img05{
+	max-width: 250px;
+	max-height: 100px;
+	margin:0px 0px -10px 0px;
+}
+.img06{
+	max-width: 450px;
+	max-height: 200px;
+}
+.img07{
+	margin:0px 0px 0px 0px;
+}
+.img08{
+	width: 15%;
+}
+.blue_title{
+	color:#0288d1;
+	font-size: 20px;
+}
+
+@media (max-width: 767.98px){
+.graphite .accordion a:hover{
+	color:#ddd;
+
+}
+.img01{
+	width: 70%;
+}
+.img02{
+	width:70%;
+}
+.img06{
+	width: 70%;
+}
+.img08{
+	width: 55%;
+}
+.graphite .accordion {
+	font: bold 18px 'Roboto', sans-serif;
+	border-top: 1px solid #111;
+	border-right: 1px solid #111;
+	border-left: 1px solid #111;
+}
+}
+@media (max-width: 340px){
+	.graphite .accordion {
+	font: bold 16px 'Roboto', sans-serif;
+	
+}
+}

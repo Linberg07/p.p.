@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="all" />
+<title>Информация</title>
+<link href="dcaccordion.css" rel="stylesheet" type="text/css" />
+<link href="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type='text/javascript' src='jquery.cookie.js'></script>
+<script type='text/javascript' src='jquery.hoverIntent.minified.js'></script>
+<script type='text/javascript' src='jquery.dcjqaccordion.2.7.min.js'></script>
+<script type="text/javascript">
+$(document).ready(function($){
+					$('#accordion-1').dcAccordion({
+						eventType: 'click',
+						autoClose: true,
+						saveState: true,
+						disableLink: true,
+						speed: 'fast',
+						showCount: false,
+						autoExpand: true,
+						cookie	: 'dcjq-accordion-1',
+						classExpand	 : 'dcjq-current-parent'
+					});
+					
+});
+</script>
+<link href="graphite.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div class="wrap">
+
+<div class="graphite">
+
+<ul class="accordion" id="accordion-1">
+
+    <li class="accordion__item"><a href="#">О системе</a><ul class="accordion__item_ul">
+        <br>
+            <li class="in">
+
+                <span class="item__title">Fenomy сегодня</span> - это совершенно бесплатный инструмент, который поможет эффективно организовать личную безопасность для вас, вашей семьи и друзей. В дальнейшем, Fenomy позволит решать более широкий круг повседневных задач и даже зарабатывать.<br /><br />
+
+                <span class="item__title">Fenomy</span> — экосистема с использованием элементов технологии blockchain, построенная на основе принципов горизонтальной экономики. Fenomy состоит из облачного центра обработки данных и кругов пользовательских связей, сформированных по принципу личной лояльности участников друг другу. Круги в системе Fenomy имеют реальный, а не виртуальный характер и отражают связи между людьми в реальной жизни. Все взаимодействия в системе происходят внутри кругов.
+            </li><br></ul>
+
+
+    <li class="accordion__item"><a href="#">Круги</a><ul class="accordion__item_ul">
+        <br>
+            <li class="in">
+                <img src="circle.png"  alt="" class="accordion__item_img img01">
+                 - <span class="item__title">Первый круг</span> формируют сами участники через прямой личный контакт с другими людьми при помощи мобильных устройств или через обмен специальными кодами. Первый круг — это как правило члены семьи, друзья, коллеги, просто знакомые, то есть все, кого участник знает лично, с кем сформированы лояльные отношения, доверие.<br /><br>
+ - <span class="item__title">Второй круг</span> участника формируется автоматически системой из тех, кто входит в первый круг участников первого круга.<br /><br>
+ - <span class="item__title">Третий и четвёртый круги</span> — формируются по тому же принципу, что и второй круг.
+            </li>
+            <br></ul>
+
+    <li class="accordion__item"><a href="#">Профиль</a><ul class="accordion__item_ul">
+        <br>
+            <li class="in">
+Раздел состоит из общей информации о вашем профиле, балансе, количестве ваших связей и их распределении по кругам. Также, в разделе Профиль можно создавать связи, редактировать свои пользовательские данные и настраивать политику взаимодействия с вашими кругами. <br /><br />
+
+    Настройки доступны в трёх вкладках: <span class="item__title">Личные данные</span>, <span class="item__title">Задания</span> и <span class="item__title">Тревога</span>. <br /><br />
+<img src="profile.png" alt="" class="accordion__item_img img02">
+
+Заполнение личных данных не является обязательным. Вы можете их внести, по желанию, для повышения удобства взаимодействия с другими пользователями.<br /><br />
+
+    <span class="item__title">Email</span> можно указать для получения на него своих регистрационных данных и возможности последующего восстановления доступов, если они будут утеряны.<br /><br />
+
+    <span class="item__title">Телефон указывать не обязательно.</span> Проверка на принадлежность номера пока отключена.<br /><br />
+
+    <span class="item__title">Навыки</span> - инструмент пока в работе и будет использоваться в последующем для инструмента «Задания». Вы можете указать свои навыки и они будут сохранены в системе.<br /><br />
+<img src="skills.png" alt="" width="70%" class="accordion__item_img">
+    
+    <span class="item__title blue_title">Вкладка Задания</span><br /><br />
+
+    <span class="item__title">Кому отправлять задачи</span> - укажите кому вы будете отправлять задания.<br /><br />
+
+    <span class="item__title">Принимать задачи от</span> - укажите от кого вы согласны принимать задания.<br /><br />
+
+<strong>Принимать задачи на удалении до</strong> - здесь можно указать предельное расстояние на котором вы готовы принимать задания от ваших кругов.<br /><br />
+
+
+    <span class="item__title blue_title">Вкладка Тревога</span><br /><br />
+
+<strong>Кому отправлять тревогу</strong> - укажите кому должен быть отправлен сигнал тревоги в случае её вызова.<br /><br />
+
+<strong>Принимать тревогу от кругов</strong> - укажите от каких кругов (включительно) вы согласны принимать сигналы тревоги. Если вы захотите принимать тревогу только от семьи или друзей, вам необходимо выбрать 1 круг и там установить нужные опции.<br /><br />
+
+<strong>Принимать тревогу на удалении до</strong> - этот параметр ограничит по расстоянию видимость сигналов тревоги от ваших кругов. <br /><br />
+
+<strong>Для первого круга любое удаление</strong> - если здесь поставить галочку, вы будете видеть все сигналы тревоги от вашего первого круга как бы далеко вы не находились.
+
+ 
+
+            </li>
+            <br></ul>
+
+
+    <li class="accordion__item"><a href="#">Связи</a><ul class="accordion__item_ul">
+        <br>
+            <li class="in">
+
+Связи - самая важная часть системы. Для создания новой связи необходимо перейти в <strong>Профиль</strong> и выбрать <strong>Создать связь</strong>. Если вы принимаете связь, то необходимо выбрать <strong>Принять связь</strong>.
+<img src="connection.png" alt="" width="70%" class="accordion__item_img img04"> В настоящий момент доступно создание связей через QR и через обмен кодами. <br /><br />
+
+
+- Если вы <img src="qr.png"  alt="" class="img05">выбираете <strong>QR</strong>, то у вас его должен отсканировать принимающий связь. <br />
+- Если вы выбираете <strong>Обмен кодами</strong>, то вы должны сообщить принимающему код, который вы увидите на экране, а после ввести ответный код, который вам сообщит тот кто принимает связь.<br /><br />
+
+После образования связи в появившемся диалоге вы можете указать дополнительные опции, которые будете видеть только вы:<br /><br />
+- Присвоить связи принадлежность к семье, друзьям, коллегам.<br />
+- Назвать связь (пример: Мама, Петя, Сосед, Тренер и т.д.).<br /><br />
+<img src="my_connection.png" alt="" width="70%" class="accordion__item_img img06">
+После создания связи вы сможете её отредактировать или удалить в разделе <strong>Ваши связи</strong>.
+
+
+
+
+            </li>
+            <br></ul>
+
+    <li class="accordion__item"><a href="#">Инструмент Тревога</a><ul class="accordion__item_ul">
+        <br>
+            <li class="in">
+Позволяет запросить срочную помощь или получать сигналы о тревоге внутри ваших кругов.<br /><br />
+
+Для вызова или завершения тревоги необходимо в течение <strong>3 секунд</strong> удерживать кнопку <strong>ТРЕВОГА</strong>. <br /><br />
+<img src="attantion.png" alt=""  class="accordion__item_img img06">
+
+После того как кнопка станет красной, можно отправлять короткие сообщения, которые увидят все, кто примет вызов.<br /><br />
+
+<img src="attantion_red.png" alt=""  class="accordion__item_img img06">
+ Для того, чтобы принять вызов, необходимо перейти по уведомлению в подробности тревоги и нажать <strong>Принять вызов</strong>.<img src="accept.png" alt=""  class="accordion__item_img img06">
+
+<a href="https://fenomy.com/i/alarm/" target="_blank">Подробнее о том как работает тревога.</a>
+ 
+            </li>
+            <br></ul>
+
+    <li class="accordion__item"><a href="#">Инциденты</a><ul class="accordion__item_ul">
+        <br>
+            <li class="in">
+В разделе <strong>Инциденты</strong> можно найти все актуальные вызовы. Если в разделе пусто, значит в настоящий момент актуальные вызовы отсутствуют.<br /><br />
+
+Все завершенные вызовы можно найти в разделе <strong>История</strong>.
+            </li>
+            <br></ul>
+
+
+    <li class="accordion__item"><a href="#">События</a><ul class="accordion__item_ul">
+        <br>
+            <li class="in">
+В разделе <img src="mark.png"  alt="" class="img07"><strong> События</strong> можно найти все последние инциденты, транзакции, приглашения, а также важные уведомления от Системы.<br /><br />
+
+Все события, которые вы еще не видели, подсвечиваются и их число также появляется на панели справа от заголовка.
+            </li>
+            <br></ul>
+
+
+    <li class="accordion__item"><a href="#">Местоположение по запросу</a><ul class="accordion__item_ul">
+        <br>
+            <li class="in">
+
+<font color="red">*** Экспериментальная возможность! Для некоторых устройств может работать не корректно!</font><br /><br />
+
+В разделе <strong>Связи</strong> можно для любой связи разрешить запрашивать ваше последнее местоположение, которое знает ЦОД. Для этого необходимо нажать на значок редактирования связи и поставить флажок на опции <strong>Предоставлять этой связи данные о моем местоположении по запросу</strong><br /><br />
+<img src="geo.png" alt="" width="70%" class="accordion__item_img">
+
+Если тот с кем у вас установлена связь предоставит вам такое разрешение, то вы увидите в списке связей кнопку <strong>Запросить местоположение.</strong><br /><br />
+<img src="get_geo.png" alt="" width="70%" class="accordion__item_img">
+Местоположение устройства, у которого разрешили запрашивать местоположение, обновляется 1 раз в 15 - 60 минут. 
+
+            </li>
+            <br></ul>
+
+
+
+
+    <li class="accordion__item"><a href="#">История</a><ul class="accordion__item_ul">
+        <br>
+            <li class="in">
+В разделе <strong>История</strong> можно посмотреть все завершенные инциденты и транзакции.
+            </li>
+            <br></ul>
+
+    <li class="accordion__item"><a href="#">Баланс</a><ul class="accordion__item_ul">
+        <br>
+            <li class="in">
+На балансе отражено количество Fenomy coin (FNM), которыми вы владеете. <br /><br />
+<img src="balance.png" alt=""  class="accordion__item_img img08">
+<strong>ВАЖНО!</strong> Все инструменты системы совершенно бесплатные для любого пользователя. Для использования системы пополнение баланса не требуется.
+
+            </li>
+            <br></ul>
+
+
+
+   <li class="accordion__item"><a href="#">Дорожная карта</a>
+    <ul class="accordion__item_ul">
+        <br>
+            <li class="in">
+
+В самое ближайшее время в приложении начнут работать следующие инструменты: <br /><br />
+
+<strong>- Местоположение по запросу</strong><br /><br />
+
+<strong>- Авторизация через QR, EMAIL, SMS</strong><br /><br />
+
+<strong>- Аватар участника</strong><br /><br />
+
+<strong>- Предустановленные профили поведения</strong><br /><br />
+
+<strong>- Инструментарий для заданий/поручений</strong><br /><br />
+
+<strong>- Компании/Объединения/Группы</strong><br /><br />
+
+<strong>- Инструментарий для координации на местности</strong><br /><br />
+
+<strong>- Публичные люди</strong><br /><br />
+
+<strong>- Массовые поручения</strong><br /><br />
+
+<strong>- Рейтинги и отзывы</strong><br /><br />
+
+<strong>- Внутренние переводы FNM</strong><br /><br />
+
+<i>Кроме того, мы постоянно совершествуем уже существующие возможности системы.</i>
+
+            </li>
+            <br></ul>
+
+
+    <li class="accordion__item"><a href="#">Контакты</a><ul class="accordion__item_ul">
+        <br>
+            <li class="in">
+
+Если у вас есть вопросы или предложения, вы можете связаться с нами:<br /><br />
+
+Telegram: <a href="https://t.me/fenomy">https://t.me/fenomy</a><br /><br />
+
+E-mail: <a href="mailto:info@fenomy.com">info@fenomy.com</a><br /><br />
+
+Website: <a href="https://fenomy.com">https://fenomy.com</a><br /><br />
+
+По телефону: <a href="tel:+3197010281404">+3197010281404</a>
+            </li>
+            <br></ul>
+
+
+
+    <li class="accordion__item"><a href="#">Политика конфиденциальности</a><ul class="accordion__item_ul">
+        <br>
+            <li class="in"><a href="https://fenomy.com/info/policy.html" style="margin-left:45px; margin-top: 10px;">https://fenomy.com/info/policy.html</a>
+            </li>
+            <br></ul>
+
+
+
+
+</ul>
+
+
+</div>
+
+<div class="clear"></div>
+</div>
+
+<div class="scroll"></div>
+<script src="script.js"></script>
+</body>
+</html>
